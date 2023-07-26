@@ -13,7 +13,7 @@ print()
 print('___ YOUR RECEIPT ___')
 for key, value in products.items():
     total += value
-    print(f'{key}     :     ${value}')
+    print(f'{key:10}:     ${value:.2f}')
 
 print()
 print('____________________')
